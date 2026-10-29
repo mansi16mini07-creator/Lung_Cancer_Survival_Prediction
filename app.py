@@ -79,7 +79,7 @@ st.markdown("""
 # 3. LOAD TRAINED MODEL AND METADATA
 # =========================================================
 
-MODEL_PATH = Path("lung_cancer_model.pkl")
+MODEL_PATH = Path("lung_cancer_model_compressed.pkl")
 METADATA_PATH = Path("model_metadata.pkl")
 
 if not MODEL_PATH.exists() or not METADATA_PATH.exists():
